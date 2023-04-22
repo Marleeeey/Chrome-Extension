@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+}
+
+.url-link {
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 3px;
+  height: 20px;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+  font-family: arial;
+  padding-left: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  width: 100%;
+}
+
+.url-link:hover {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+
+.input-btn {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  cursor: pointer;
+  background-color: rgb(73, 241, 73);
+  border: none;
+  border: 1px solid rgb(73, 241, 73);
+  border-radius: 2px;
+  color: #ffffff;
+  transition: transform 0.2s ease-in-out;
+  margin-top: 10px;
+}
+
+.input-btn:hover {
+  transform: scale(1.1);
+}
+.input-btn:active {
+  opacity: 0.95;
+}
+
+/*                                                   Clear Btn Style                                        */
+
+.clear-btn {
+  color: rgb(73, 241, 73);
+  font-weight: bold;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  cursor: pointer;
+  border: none;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  transition: transform 0.2s ease-in-out;
+  margin-top: 10px;
+}
+
+.clear-btn:hover {
+  transform: scale(1.1);
+}
+
+.clear-btn:active {
+  opacity: 0.75;
+}
+
+/*                                             The order list Style                                        */
+
+
+ul {
+  list-style: none;
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+li {
+  margin-top: 5px;
+}
+
+
+a {
+  color: rgb(51, 153, 248);
+}
+
+
